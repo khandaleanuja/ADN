@@ -34,4 +34,9 @@ publish/
 appsettings.Development.json
 appsettings.Local.json
 
+# Ignore libraries
 wwwroot/lib/
+
+# Ignore build files
+bin/
+obj/
