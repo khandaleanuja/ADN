@@ -3,3 +3,35 @@ bin/
 obj/
 *.user
 *.suo
+
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio folders
+.vs/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Publish folder
+publish/
+
+# IIS Express (local config)
+.vscode/
+
+# Environment files (if used)
+appsettings.Development.json
+appsettings.Local.json
+
+wwwroot/lib/
