@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Food Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🍔 Online Food Order System</h1>
+
+    <!-- Add Food -->
+    <h2>Add Food</h2>
+    <input id="foodId" placeholder="Food ID">
+    <input id="foodName" placeholder="Food Name">
+    <input id="foodPrice" placeholder="Price">
+    <button onclick="addFood()">Add Food</button>
+
+    <hr>
+
+    <!-- FOOD LIST (⭐ FIX HERE) -->
+    <h2>Food List</h2>
+    <button onclick="getFoods()">Load Foods</button>
+    <div id="foods"></div>
+
+    <hr>
+
+    <!-- Place Order -->
+    <h2>Place Order</h2>
+    <input id="orderFoodId" placeholder="Food ID">
+    <input id="quantity" placeholder="Quantity">
+    <button onclick="placeOrder()">Place Order</button>
+
+    <hr>
+
+    <!-- Orders -->
+    <h2>Orders</h2>
+    <button onclick="getOrders()">Load Orders</button>
+    <div id="orders"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

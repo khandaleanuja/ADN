@@ -1,0 +1,16 @@
+﻿@model HelloMVC.Models.ErrorViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+</head>
+<body>
+    <h2>Error Occurred</h2>
+
+    @if (Model.ShowRequestId)
+    {
+        <p>Request ID: @Model.RequestId</p>
+    }
+</body>
+</html>

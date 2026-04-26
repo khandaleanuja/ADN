@@ -1,0 +1,41 @@
+﻿@model HelloMVC.Models.Student
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+
+    <form asp-action="Create" method="post">
+
+        <div>
+            <label>Name:</label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name" style="color:red"></span>
+        </div>
+
+        <br />
+
+        <div>
+            <label>Age:</label>
+            <input asp-for="Age" />
+            <span asp-validation-for="Age" style="color:red"></span>
+        </div>
+
+        <br />
+
+        <div>
+            <label>Email:</label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email" style="color:red"></span>
+        </div>
+
+        <br />
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
